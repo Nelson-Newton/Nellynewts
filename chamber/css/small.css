@@ -259,3 +259,23 @@ button:hover {
 img[data-src] {
     filter: blur(0.2em);
 }
+h1{
+
+    color: green;
+}
+td{
+    color: white;
+}
+
+.submit{
+    text-align: left;
+}
+table{
+    border: 2px solid red;
+    width: 300px;
+    background-color: coral;
+    text-shadow: yellow;
+}
+caption{
+    color: green;
+}

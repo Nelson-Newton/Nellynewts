@@ -29,17 +29,15 @@
 <body>
 <!-- HEADER HERE -->
 	<header>
- <h1>Course Proposal</h1>
-        <h2>Designing Web Forms</h2>
+
     </header>
-    
     
 <!-- NAVIGATION HERE -->
     <nav class="clearfix">
         <ul >
             <li><a href="#">About</a></li>
             <li class="active"><a href="#">Propose</a></li>
-            <li><a href="#">Winners</a></li>
+            <li><a href="#">Why Join</a></li>
             <li><a href="#">Contact</a></li>    
         </ul>
     </nav>
@@ -48,10 +46,54 @@
 <!-- CONTENT HERE -->
 <main>
     <h1>Course Proposal Application</h1>
-        
+    <form method="get" action="thanks.html">
+    
+    <fieldset>
+        <legend>Application information</legend>
+       <label class="top"> First Name* <input type="text" name="firstname" required></label>
+       <label class="top"> Last Name* <input type="text" name="lastname" required></label>
+       <label class="top"> Phone <input type="tel" name="phone" placeholder="01265...."></label>
+       <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+       <label class="top"> Website <input type="url" name="url" placeholder="htpp://"> </label>
+       
+    </fieldset>
 
-          
-        
+    <fieldset>
+        <legend>course information</legend>
+        <div>Audience</div>
+        <label class="sbs"> <input type="radio" name="audience" value="beginer">Beginer</label>
+        <label class="sbs"> <input type="radio" name="audience" value="beginer">Intermediate</label>
+        <label class="sbs"> <input type="radio" name="audience" value="beginer">Advanced</label>
+    </fieldset>
+    
+    <div>Software Needed</div>
+    <label class="sbs"> <input type="checkbox" name="editing" value="Yes">Photo editing</label>
+    <label class="sbs"> <input type="checkbox" name="editing" value="No">coding</label>
+    <label class="sbs"> <input type="checkbox" name="editing" value="Yes">processor</label>
+    <label class="sbs"> <input type="checkbox" name="editing" value="Yes">FTP client</label>
+
+    <fieldset>
+        <legend>Funding</legend>
+        <label class="top">Anticipated completion Date <input type="date" name="completion"></label>
+
+        <label class="top">Course subject
+            <select name="subject">
+                <option value="">Please select &#9662;</option>
+                <option value="Software">Software Development</option>
+                <option value="Software">Creative professional</option>
+                <option value="Software">Information Technology</option>
+                <option value="Software">Data professional</option>
+                <option value="Software">Construction</option>
+                <option value="Software">Manufacturing</option>
+                <option value="Software">Cyber Security</option>
+            </select>
+        </label>
+        <label class="top">How many Authors <input type="number" name="authors"></label>
+    </fieldset>
+
+    <input type="submit" value="proporse my course" class="submitBtn">
+
+    </form> 
     </main>
     
 <!-- FOOTER HERE -->   
@@ -60,4 +102,4 @@
     </footer>
 <script src="js/scripts.js"></script>
 </body>
-</html>
+</html

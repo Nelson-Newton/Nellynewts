@@ -1,0 +1,1 @@
+document.querySelector("#LastMod").innerHTML = "Date the <strong>document</strong> "

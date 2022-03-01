@@ -268,10 +268,71 @@ img[data-src] {
     align-items: grid;
 }
 
-.fieldset{
-    align-content: flex;
+/*.................FORM............*/
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .2rem 2%;
 }
-.clearfix ul li {
-    align-items: flex-start;
 
+form legend{
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: 2rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 15px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0,1);
+}
+
+form label.radio{
+    display: block;
+    padding: .75rem;
+    color: white;
+}
+
+form input.submitBtn{
+    border: 1 px solid red;
+    background-color: #445ba9;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}  
+
+form label.top input:required{
+    border-left: 6px solid red;
+}
+
+form label.top input:required:valid{
+    border-left: 6px solid green;
+}
+
+.clearfix ul li a {
+    display:inline-block;
+    color: greenyellow;
+    background-color: green;
+}
+
+main{
+    background-color:darkslategrey;
 }

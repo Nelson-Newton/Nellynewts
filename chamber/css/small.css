@@ -259,3 +259,19 @@ button:hover {
 img[data-src] {
     filter: blur(0.2em);
 }
+
+.small {
+    align-items: flex-start;
+}
+
+.medium_principle {
+    align-items: grid;
+}
+
+.fieldset{
+    align-content: flex;
+}
+.clearfix ul li {
+    align-items: flex-start;
+
+}

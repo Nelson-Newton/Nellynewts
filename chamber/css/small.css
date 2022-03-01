@@ -329,8 +329,8 @@ form label.top input:required:valid{
 
 .clearfix ul li a {
     display:inline-block;
-    color: greenyellow;
-    background-color: green;
+    color: green;
+    
 }
 
 main{

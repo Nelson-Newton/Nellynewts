@@ -52,4 +52,24 @@ footer {
     box-shadow: 0 0 30px #333;
 
 }
+
+body {
+    width: 480px;
+    align-items: center;
+    background-color: grey;
+    border: 2px solid rgb(24, 43, 24);
+    border-radius: 5px;
+    border-top: red;
+}
+ .linklist ul {
+    background-color: darkolivegreen;
+ }
+ .linklist ul li {
+     color: blue;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .linklist ul a {
+     color: gold;
+ }
 }

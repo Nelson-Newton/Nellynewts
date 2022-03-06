@@ -1,8 +1,8 @@
-const requestURL = 'data.json';
+const requestURL = 'wdd230/chamber/lesson9/data.json';
 const companies = document.querySelector('.companies');
 
   function displayCompanies(company) {
-    // Create elements to add to the document
+    // Creating elements to add to the document
     let section = document.createElement('section');
     let name = document.createElement('h2');
     let logo = document.createElement('img');
@@ -33,12 +33,6 @@ const companies = document.querySelector('.companies');
     section.appendChild(tel);
     section.appendChild(site);
 
-    //section.appendChild(name);
-
-//    card.appendChild(h3Birth);
-//    card.appendChild(h3Death);
-//    card.appendChild(h3Local);
-//    card.appendChild(portrait);
     
     companies.appendChild(section);
     

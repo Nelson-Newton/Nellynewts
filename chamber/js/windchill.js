@@ -33,6 +33,7 @@ function doStuff(data) {
     wind.innerHTML = wind_speed;
     temperature.innerHTML = temp + "°F";
     main.innerHTML = main_state;
+    fas_fa_cloud_sun_rain.innerHTML = clouds
     wind_chill.innerHTML = (35.74 + (0.6215 * temp) - (35.75 * (wind_speed ** 0.16)) + (0.4275 * (temp * (wind_speed ** 0.16)))).toFixed(2) + "°F";
 }
 

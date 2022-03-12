@@ -6,7 +6,6 @@ const main = document.querySelector(".main");
 const lat = 34.048689;
 const lon = -106.896172;
 const API_key = "c214e3f900b57a2339e013f6fe75b871";
-//const url = 'http://api.openweathermap.org/data/2.5/weather?lat=${lat}$lon={lon}$appid=${API_key}$units=London';
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}&units=imperial`;
 let results = null;
 
@@ -35,7 +34,7 @@ function doStuff(data) {
     temperature.innerHTML = temp + "°C";
     main.innerHTML = main_state;
     fas_fa_cloud_sun_rain.innerHTML = clouds
-    wind_chill.innerHTML = (35.74 + (0.6215 * temp) - (35.75 * (wind_speed ** 0.16)) + (0.4275 * (temp * (wind_speed ** 0.16)))).toFixed(2) + "°C";
+    wind_chill.innerHTML = (35.74 + (0.6215 * temp) - (35.75 * (wind_speed ** 0.16)) + (0.4275 * (temp * (wind_speed ** 0.16)))).toFixed(2) + "°F";
 }
 
 const weatherData = fetch(url).then(convertToJson).then(doStuff);

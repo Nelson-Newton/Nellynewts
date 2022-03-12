@@ -267,6 +267,11 @@ img[data-src] {
 .medium_principle {
     align-items: grid;
 }
+.temperature{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
 
 /*.................FORM............*/
 form fieldset{

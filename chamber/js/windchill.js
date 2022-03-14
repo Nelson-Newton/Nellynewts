@@ -17,7 +17,7 @@ function convertToJson(response) {
     else {
         return console.log("Error: " + JSON.stringify(response))
     }
-}
+} 
 
 let temp = "";
 let main_state = "";

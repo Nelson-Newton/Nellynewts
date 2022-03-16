@@ -272,6 +272,16 @@ img[data-src] {
     font-weight: bold;
     font-size: larger;
 }
+.wind-speed{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.wind-chill{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
 
 /*.................FORM............*/
 form fieldset{
@@ -341,3 +351,4 @@ form label.top input:required:valid{
 main{
     background-color:darkslategrey;
 }
+

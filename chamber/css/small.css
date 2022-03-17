@@ -366,8 +366,7 @@ main{
     color: chocolate;
 
 }
-.inquiry input{
-    display: block;
-    padding-left:2px;
-    text-align: left;
+.spot-t .inquiry input{
+    display:flex;
 }
+

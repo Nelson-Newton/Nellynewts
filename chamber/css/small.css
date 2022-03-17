@@ -352,3 +352,22 @@ main{
     background-color:darkslategrey;
 }
 
+/*--------------CONTACT US  -------------------*/
+.submit{
+    background-color: green;
+}
+.news h1{
+    color: chocolate;
+}
+.join h2{
+    color: chocolate;
+}
+.spot-t h2{
+    color: chocolate;
+
+}
+.inquiry input{
+    display: block;
+    padding-left:2px;
+    text-align: left;
+}

@@ -1,4 +1,4 @@
-const requestURL = 'wdd230/chamber/lesson9/data.json';
+const requestURL = 'wdd230/chamber/data.json';
 const companies = document.querySelector('.companies');
 
   function displayCompanies(company) {

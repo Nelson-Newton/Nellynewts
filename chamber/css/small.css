@@ -389,7 +389,7 @@ main{
 
 /*..........IMAGES................*/
 
-main picture img {
+.photos picture img {
     display: block;
     padding: .05rem;
     border-radius: 10px 140px 30px 140px;
@@ -401,7 +401,7 @@ box-shadow: 3px 4px 5px 5px coral
 
 
 }
-main picture figcaption{
+.photos picture figcaption{
     padding: .5rem;
     -moz-box-shadow: 0 0 5px 3px #9d9d9d;
 -webkit-box-shadow: 0 0 3px 5px #9d9d9d;
@@ -413,7 +413,7 @@ box-shadow: 5px 5px 8px 3px chocolate;
 
 /*.........DIRECTORY......*/
 
-.location-footer{
+.location-footer {
     align-items: center;
 }
 .text-footer{

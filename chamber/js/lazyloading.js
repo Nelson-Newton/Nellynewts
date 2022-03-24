@@ -3,7 +3,7 @@ const imagesToLoad = document.querySelectorAll ("img[data-src]");
 
 //For intersectional observation
 const imgOptions = {
-    threshold:1, //.5
+    threshold:1.5,
     rootMargin:"5px 0px 50px 0px"
 };
 

@@ -386,6 +386,15 @@ main{
     display: grid;
     grid-template-columns: 1fr;
 }
+.location-footer {
+    align-items: center;
+}
+.text-footer{
+   text-align: center;
+}
+.main-nav-footer{
+    text-align: top;
+}
 
 /*..........IMAGES................*/
 
@@ -406,19 +415,16 @@ box-shadow: 3px 4px 5px 5px coral
     -moz-box-shadow: 0 0 5px 3px #9d9d9d;
 -webkit-box-shadow: 0 0 3px 5px #9d9d9d;
 box-shadow: 5px 5px 8px 3px chocolate;
-
+}
 
     
 
 
-/*.........DIRECTORY......*/
+/*.........DISCOVER......*/
+main picture img[data-src] {
+    border: 2px solid red ;
+    padding: 2px;
+    transition: 0.5s;
+}
 
-.location-footer {
-    align-items: center;
-}
-.text-footer{
-   text-align: center;
-}
-.main-nav-footer{
-    text-align: top;
-}
+ 

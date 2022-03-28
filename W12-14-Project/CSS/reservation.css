@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 html {
     font-family: Roboto;
@@ -60,8 +60,9 @@ header:hover {
 }
 
 
+
 body {
-    background-color: black;
+    background-color: gray;
 }
 
 main {
@@ -115,15 +116,21 @@ p {
     color: white;
 }
 
-header nav {
-    padding: 0.5em;
-    grid-column: 1/3;
-    grid-row: 1/2;
-    height: 0;
-    opacity: 0;
-    transition: all 500ms ease-in-out;
-    position: relative;
+nav div a {
+    font-size: 1.3rem;
+    color: blue;
+    display: inline-block;
+    
+    box-shadow: 2px 5px 2px 5px chocolate;
+    border-radius: 20px 20px 20px 20px;
 }
+nav div a:hover{
+    background-color:yellow;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+    font-size: 2rem;
+}
+
 
 button {
     border: none;
@@ -131,30 +138,104 @@ button {
     color: inherit;
     font-size: 20px;
     text-align: left;
-    width: 30px;
+    width: 50px;
     height: 30px;
     grid-row: 1/2;
     grid-column: 1/2;
     position: relative;
 }
 
-
-nav a {
-    display: block;
-    text-decoration:underline;
-    color: blue;
-    font-size: 1.5rem;
-}
-
-nav div:hover {
-    background-color:yellow;
-    margin-top: 5px;
-    transition: margin 500ms ease-in-out;
-}
-
 ul {
     color: white;
 }
+.bookings img{
+    width: 400px;
+    padding: 40px;
+    margin: 5px solid red;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 5px 5px 5px 5px goldenrod;
+}
+.bookings1 img{
+    width: 400px;
+    width: 400px;
+    padding: 40px;
+    margin: 5px solid red;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 5px 5px 5px 5px goldenrod;
+}
+.bookings2 img{
+    width: 400px;
+    width: 400px;
+    padding: 40px;
+    margin: 5px solid red;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 5px 5px 5px 5px goldenrod;
+}
+.bookings a{
+    font-size: 1.3rem;
+    color:blue;
+    box-shadow: 2px 5px 2px 5px coral;
+    border-radius: 20px 20px 20px 20px;
+}
+.bookings a:hover{
+    background-color:yellow;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+}
+
+.bookings1 a{
+    font-size: 1.3rem;
+    color:blue;
+    box-shadow: 2px 5px 2px 5px chocolate;
+    border-radius: 20px 20px 20px 20px;
+}
+.bookings1 a:hover{
+    background-color:green;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+}
+
+.bookings2 a{
+    font-size: 1.3rem;
+    color:blue;
+    box-shadow: 2px 5px 2px 5px coral;
+    border-radius: 20px 20px 20px 20px;
+}
+.bookings2 a:hover{
+    background-color:yellow;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+}
+
+input{
+    display:block;
+    margin-left: .5rem;
+}
+
+.act a{
+    font-size: 1.3rem;
+    color:blue;
+    box-shadow: 2px 5px 2px 5px chocolate;
+    border-radius: 20px 20px 20px 20px;
+}
+.act a:hover{
+    background-color:yellow;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+}
+.action a{
+    font-size: 1.3rem;
+    color:blue;
+    box-shadow: 2px 5px 2px 5px skyblue;
+    border-radius: 20px 20px 20px 20px;
+}
+.action a:hover{
+    background-color:yellow;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+}
+
+
 
 footer {
     color:darkorange;
@@ -185,19 +266,20 @@ footer a{
 }
 
 .action img {
-    height: 100%;
+    height: 400px;
     width: 100%;
     position: relative;
 }
 
 .action a {
-    position: absolute;
+    position:absolute ;
     left: 35%;
     background: rgba(61, 61, 61, 0.8);
     padding: 1em;
     color: orange;
     font-size: 1.1rem;
     transition: all 500ms;
+
 }
 
 .action a:hover {
@@ -209,7 +291,7 @@ footer a{
     display: none;
 }
 
-.join {
+.find {
     display: none;
 }
 
@@ -280,148 +362,5 @@ img[data-src] {
     font-size: larger;
 }
 
-/*.................FORM............*/
-form fieldset{
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .2rem 2%;
-}
-
-form legend{
-    color: #445ba9;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-
-}
-
-form label.top, form div{
-    display: block;
-    padding-top: 1rem;
-    color: red;
-    font-size: 2rem;
-}
-
-form label.top input, form label.top select {
-    display: block;
-    font-size: 15px;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0,1);
-}
-
-form label.radio{
-    display: block;
-    padding: .75rem;
-    color: white;
-}
-
-form input.submitBtn{
-    border: 1 px solid red;
-    background-color: #445ba9;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}  
-
-form label.top input:required{
-    border-left: 6px solid red;
-}
-
-form label.top input:required:valid{
-    border-left: 6px solid green;
-}
-
-.clearfix ul li a {
-    display: inline-block;
-    color:blue;
-    background-color: brown;
-    animation-direction: reverse;
-    
-}
-
-.clearfix{
-    background-color: chocolate;
-    animation-direction: reverse;
-}
-
-main{
-    background-color:darkslategrey;
-}
-
-/*--------------CONTACT US  -------------------*/
-.submit{
-    background-color: green;
-}
-.news h1{
-    color: chocolate;
-}
-.join h2{
-    color: chocolate;
-}
-.spot-t h2{
-    color: chocolate;
-
-}
-.spot-t .inquiry input{
-    display:flex;
-}
-
-/*...........Directory............*/
-
-.companies{
-    border: 1px solid #cccccc;
-    padding: 20px;
-    margin: 20px 0px 20px 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.location-footer {
-    align-items: center;
-}
-.text-footer{
-   text-align: center;
-}
-.main-nav-footer{
-    text-align: top;
-}
-
-/*..........IMAGES................*/
-
-.photos picture img {
-    display: block;
-    padding: .05rem;
-    border-radius: 10px 140px 30px 140px;
-
-    -moz-box-shadow: 0 0 5px 3px #9d9d9d;
--webkit-box-shadow: 0 0 3px 5px #9d9d9d;
-box-shadow: 3px 4px 5px 5px coral
-
-
-
-}
-.photos picture figcaption{
-    padding: .5rem;
-    -moz-box-shadow: 0 0 5px 3px #9d9d9d;
--webkit-box-shadow: 0 0 3px 5px #9d9d9d;
-box-shadow: 5px 5px 8px 3px chocolate;
-}
-
-    
-
-
-/*.........DISCOVER......*/
-main picture img[data-src] {
-    border: 2px solid red ;
-    padding: 2px;
-    transition: 0.5s;
-}
 
  

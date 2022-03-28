@@ -234,6 +234,17 @@ input{
     transition: margin 500ms ease-in-out;
     opacity: 1.5;
 }
+.accept a{
+    font-size: 1.3rem;
+    color:green;
+    box-shadow: 2px 5px 2px 5px yellow;
+    border-radius: 20px 20px 20px 20px;
+}
+.accept a:hover{
+    background-color:blue;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+}
 
 
 

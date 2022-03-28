@@ -317,7 +317,7 @@ form label.top input, form label.top select {
 form label.radio{
     display: block;
     padding: .75rem;
-    color: white;
+    color:white;
 }
 
 form input.submitBtn{

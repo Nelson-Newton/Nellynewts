@@ -1,0 +1,87 @@
+.bottom-left {
+    position: absolute;
+    bottom: 50%;
+    right: 400px;
+    font-size: 65px;
+    top: 200px;
+    font-family:Times New Roman;
+    color:yellow;
+  }
+  .welcome img{
+      border: 1px solid chocolate;
+      border-radius: 50px 50px 50px 50px;
+  }
+  .welcome .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .welcome .btn:hover{
+    background-color: black;
+  }
+  .welcome .x{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px
+  }
+  .welcome .x:hover{
+      background-color: yellow;
+  }
+  img {
+    float: left;
+    border: 1px solid black;
+    margin: 15px 20px 15px 20px;
+    border-radius: 50px 50px 50px 50px;
+  }
+  .right img{
+    float: right;
+    border: 1px solid black;
+    margin: 15px 20px 15px 20px;
+    border-radius: 50px 50px 50px 50px;
+  }
+  .amenities h5{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 50px;
+  }
+  .amenities ul  {
+    column-count:4;
+    font-size: 20px;
+  }
+  .book h5 {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 50px;
+  }
+  .book a{
+    font-size: 40px;
+    color:blue;
+    box-shadow: 2px 5px 2px 5px coral;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .book a:hover{
+    background-color:yellow;
+    transition: margin 500ms ease-in-out;
+    opacity: 1.5;
+  }
+  
+  

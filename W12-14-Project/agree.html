@@ -8,25 +8,40 @@
     }
     fieldset input{
         font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
-    fieldset{
+    fieldset, h1{
         border: 2px solid green;
         width: 500px;
         background-color: darkgoldenrod;
         box-shadow: 2px 5px 2px 5px yellow;
         border-radius: 20px 20px 20px 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
     fieldset button{
         color: blue;
         font-size: 1.3rem;
         box-shadow: 2px 5px 2px 5px yellow;
         border-radius: 20px 20px 20px 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    fieldset a{
+        color: blue;
+        font-size: 1.3rem;
+        box-shadow: 2px 5px 2px 5px yellow;
+        border-radius: 20px 20px 20px 20px;
+        padding-left:15px 25px;
+        margin-left: auto;
+        margin-right: auto;
     }
 </style>
 </head>
 <body>
 
-<h1>Select your billing options</h1>
+<h1>Select your billing option</h1>
 <main>
     <method="get" action="agree.html">
     <fieldset>
@@ -37,6 +52,7 @@
         <input type="checkbox" name="money" value="money" checked>
         <label for="hand"> By cash</label><br><br>
         <button type="button" onclick="alert('We are greatful and honoured your stay with us at Hotel Temple Inn and Suites. You will recieve your reciept shortly in your Email. Thankyou')">Send</button>
+        <a href="reservation.html" class="button">Back</a>
     </fieldset>
     </form>
 </main>

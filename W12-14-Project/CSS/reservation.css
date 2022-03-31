@@ -150,6 +150,19 @@ nav div a:hover{
     transition: margin 500ms ease-in-out;
     opacity: 1.5;
 }
+.location button {
+    position: absolute;
+    top: 150%;
+    margin-top:1.5%;
+    margin-right: 15%;
+    padding: 1em;
+    color: orange;
+    transition: all 500ms;
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+   
+}
 
 
 button {

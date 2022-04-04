@@ -34,39 +34,52 @@
        <label class="top"> Last Name* <input type="text" name="lastname" required></label>
        <label class="top"> Phone <input type="tel" name="phone" placeholder="0123...."></label>
        <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-
+ 
     </fieldset>
 
     <fieldset>
-        <legend><b>Click where necessary</b></legend>
+        <legend><b>This is required</b></legend>
         <div>status</div>
         <label class="radio"> <input type="radio" name="audience" value="Single">Single</label>
         <label class="radio"> <input type="radio" name="audience" value="Maried">Married</label>
-        <label class="radio"> <input type="radio" name="audience" value="Contented">Contented</label>
+        <label class="radio"> <input type="radio" name="audience" value="Contented">Family</label>
+        <label class="radio"> <input type="radio" name="audience" value="Contented">Group</label>
+        <label class="radio"> <input type="radio" name="audience" value="Contented">Church member(s)</label>
     </fieldset>
     
-    <div>Goals..</div>
-    <label class="radio"> <input type="radio" name="editing" value="Yes">Not for profit</label>
-    <label class="radio"> <input type="radio" name="editing" value="No">giving an outstanding service</label>
-    <label class="radio"> <input type="radio" name="editing" value="Yes">team work and creativity</label>
-    <label class="radio"> <input type="radio" name="editing" value="Yes">All</label>
+    <div><b>Needed please</b></div>
+    <label for="date">Arrival date:</label>
+    <input type="date" id="date" name="date">
+
+    <label for="time">Arrival Time:</label>
+    <input type="time" id="time" name="time">
+    
     <fieldset>
     
 
-        <label class="top">Membership
+        <label class="top">Room type
             <select name="subject">
                 <option value="">Please select &#9662;</option>
-                <option value="Levels">Np Membership for non profit organidations(no fee)</option>
-                <option value="Levels">Bronze Membership</option>
-                <option value="Levels">Silver Membership</option>
-                <option value="Levels">Gold Membership</option>
+                <option value="Levels"></option>
+                <option value="Levels">Single Room</option>
+                <option value="Levels">Double Room</option>
+                <option value="Levels">Twin Room</option>
+                <option value="Levels">Triple Room</option>
+                <option value="Levels">King Room</option>
+                <option value="Levels">Queen Room</option>
+                <option value="Levels">Double-Double Room</option>
+                <option value="Levels">Suite Room</option>
+                <option value="Levels">Parlour Room</option>
                 
             </select>
         </label>
+        <label for="birthday">Depart date and Time:</label>
+        <input type="date" id="date" name="date">
+        <input type="time" id="time" name="time">
     </fieldset>
 
     <div class="submitBtn">
-        <a href="thankyou.html">Your thankful</a>
+        <button type="button"><a href="agree.html">Continue</a></button>
         
     </div>
  

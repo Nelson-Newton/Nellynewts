@@ -29,7 +29,7 @@
   .welcome .btn:hover{
     background-color: black;
   }
-  .welcome .x{
+  .welcome a{
     position: absolute;
     top: 50%;
     left: 80%;
@@ -43,7 +43,7 @@
     cursor: pointer;
     border-radius: 5px
   }
-  .welcome .x:hover{
+  .welcome a:hover{
       background-color: yellow;
   }
   img {
@@ -83,5 +83,84 @@
     transition: margin 500ms ease-in-out;
     opacity: 1.5;
   }
+ 
+  /*.................FORM............*/
+form fieldset{
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .2rem 2%;
+  left: 50%;
+}
+
+form legend{
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+
+}
+
+form label.top, form div{
+  display: block;
+  padding-top: 1rem;
+  color: red;
+  font-size: 2rem;
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 15px;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0,1);
+}
+
+form label.radio{
+  display: block;
+  padding: .75rem;
+  color:black;
+}
+
+form input.submitBtn{
+  border: 1 px solid red;
+  background-color: #445ba9;
+  color: black;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}  
+
+form label.top input:required{
+  border-left: 6px solid red;
+}
+
+form label.top input:required:valid{
+  border-left: 6px solid green;
+}
+
+.clearfix ul li a {
+  display: inline-block;
+  color:blue;
+  background-color: brown;
+  animation-direction: reverse;
   
+}
+
+.clearfix{
+  background-color: chocolate;
+  animation-direction: reverse;
+}
+.submitBtn button{
+  color: #445ba9;
+  font-size: 20px;
+}
+
+
+
   

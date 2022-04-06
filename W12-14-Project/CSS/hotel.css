@@ -64,6 +64,17 @@ main div:hover {
     background: slategrey;
 }
 
+main .card img[data-src] {
+    filter: blur(0.3em);
+
+}
+
+main .card img {
+    filter: blur(0.3em);
+    opacity: 1;
+    transition: all 500ms ease-in;
+}
+
 
 .logo-box {
     display:grid;

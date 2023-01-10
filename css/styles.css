@@ -60,6 +60,7 @@
         border: 2px solid rgb(24, 43, 24);
         border-radius: 5px;
         border-top: red;
+        font-family: 'Oswald', sans-serif;
     }
      .linklist ul {
         background-color: darkolivegreen;
@@ -75,5 +76,6 @@
      html {
          align-items: center;
          justify-content: center;
+         font-family: 'Oswald', sans-serif;
      }
     }

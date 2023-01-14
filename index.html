@@ -11,6 +11,7 @@
     <!-------design references-->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medium.css">
     <script defer src = "js/getDates.js"></script>
     <title></title>
     
@@ -25,7 +26,8 @@
     <section class = "linklist">
         <h2>WDD 230: Assignment portal</h2>
     <ul>
-        <li>Lesson 02: <a href = "#">Title</a></li>
+        <li>Lesson 01: <a href = "index.html">Course portal page</a></li>
+        <li>Lesson 02: <a href = "design-principles.html">Design principles</a></li>
         <li>Lesson 03: <a href = "#">Title</a></li>
         <li>Lesson 04: <a href = "#">Title</a></li>
         <li>Lesson 05: <a href = "#">Title</a></li>
@@ -43,10 +45,16 @@
     </aside>
 </body>
 <footer>
-    &copy 2021 .:|:. Tumwesige Nelson .:|:. Uganda<br>
-    Last Updated: 5/01/2023
-    <link rel="js" href="js/dates.js">
-    <script src = "js/dates.js"></script>
+    <div class="byline">
+        <span class="byline-element">&copy; <span id="yearField">2023</span></span>
+        <span class="footer-separator">&nbsp;|&nbsp;</span>
+        <span class="byline-element">Tumwesige Nelson</span>
+        <span class="footer-separator">&nbsp;|&nbsp;</span>
+        <span class="byline-element">Uganda</span>
+        <span class="footer-separator">&nbsp;|&nbsp;</span>
+        <span class="byline-element">Last Updated: <span id="timestamp"></span></span>
+    </div>
 </footer>
+<script src="js/dates.js"></script>
 
 </html>
